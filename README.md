@@ -14,5 +14,18 @@ There are a few functions in the wiringPi 'C' library that have not been ported.
  * extern void piLock        (int key);
  * extern void piUnlock      (int key);
 
+Serial, I2C, SPI, LCD, SERVO, GERTBOARD
+-----------------------------------------------
+The other functions in the wiringPi library for which HasberryPi bindings have not been written yet .. are,
+
+gertboard.h
+lcd.h
+softPwm.h
+softServo.h
+softTone.h
+wiringPiI2C.h
+wiringPiSPI.h
+wiringSerial.h
+wiringShift.h
 
 Remember that the bindings are experimental and may not work as expected.
